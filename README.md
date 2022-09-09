@@ -18,3 +18,15 @@ Para nos enviar o código, crie um fork desse repositório e quando finalizar, m
 O projeto deve ser desenvolvido em C#, utilizando o .NET Core 3.1 ou superior.
 
 Gostaríamos que fosse evitado a utilização de frameworks, e que tivesse uma explicação do que é necessário para funcionar o projeto e os testes.
+
+### Como executar o projeto
+
+- É necessário possuir a versão do .NET 6 instalado na máquina.
+
+Para executar a API 
+  - Via Terminal: acesse o diretório *Catalog.API/* e digite o comando ```dotnet run```
+  - Via Visual Studio: abra o arquivo Catalog.sln no diretório raíz do projeto. Na pasta **WebAPI** clique com o botão direito em **Catalog.API** e clique em ```Set as Startup Project``` ou ```Definir como projeto de inicialização``` dependendo do idioma da IDE e pressione ```F5```.
+  
+Para executar os testes:
+  - Via Terminal: acesse o diretório *Catalog.Tests/* e digite o comando ```dotnet test```
+  - Via Visual Studio: abra o arquivo Catalog.sln no diretório raíz do projeto. Na pasta **WebAPI.Tests** clique com o botão direito em **Catalog.Tests** e clique em ```Run Tests``` ou ```Executar Testes``` dependendo do idioma da IDE.
