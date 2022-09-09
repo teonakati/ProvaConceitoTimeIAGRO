@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Catalog.API</name>
+    </assembly>
+    <members>
+        <member name="M:Catalog.API.Controllers.BookController.GetBooks(Catalog.Service.DTO.BookFilterDTO)">
+            <summary>
+            Retorna uma lista de livros com possibilidade de inclusão de filtros
+            </summary>
+            <param name="filters"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Catalog.API.Controllers.ShippingController.BookShipping(System.Int32)">
+            <summary>
+            Calcula o valor do frete de acordo com o livro informado
+            </summary>
+            <param name="bookId"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
